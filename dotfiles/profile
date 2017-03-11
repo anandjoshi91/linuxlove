@@ -1,0 +1,22 @@
+#! /bin/bash/
+
+
+# Colorful prompt
+PS1='\[\e[1;36m\]\d \[\e[1;31m\]\t \[\e[1;33m\]\u@\[\e[1;35m\]\h:\w\$\[\e[0;32m\]: '
+
+
+# Aliases
+alias cls='clear'
+alias ll='ls -lrth'
+alias godev='cd /anand/dev/'
+alias open='xdg-open'
+alias vi='vim'
+
+
+
+# Environment variables
+export LINUX_LOVE_HOME='/anand/dev/linuxlove/'
+
+
+# Common utilites and functions
+source ${LINUX_LOVE_HOME}/scripts/common.sh
