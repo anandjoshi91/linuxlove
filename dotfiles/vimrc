@@ -1,5 +1,5 @@
 " Vundle Pugins
-source ~/.vimrc.bundles
+source ${LINUX_LOVE_HOME}/dotfiles/vimrc.bundles
 
 " General
 set nu
